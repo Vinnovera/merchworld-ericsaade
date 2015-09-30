@@ -1,6 +1,4 @@
-<?php
-require 'header.php';
-?>
+{=part.header}
 <div class="wrapper">
 	<div class="content">
 		<h1>Kassa</h1>
@@ -17,7 +15,7 @@ require 'header.php';
 						<input checked="checked" name="paymethod" value="creditcard" type="radio">
 					</li>
 					<li>
-						<img src="img/creditcard.png" alt="creditcard">
+						<img src="images/creditcard.png" alt="creditcard">
 					</li>
 					<li class="payment-title">Kreditkort</li>
 				</ul>
@@ -28,7 +26,7 @@ require 'header.php';
 						<input name="paymethod" value="invoice" type="radio">
 					</li>
 					<li>
-						<img src="img/invoice.png" alt="invoice">
+						<img src="images/invoice.png" alt="invoice">
 					</li>
 					<li class="payment-title">Klarna faktura - 19,00 kr</li>
 					<li class="payment-desc">Villkor för faktura</li>
@@ -40,7 +38,7 @@ require 'header.php';
 						<input name="paymethod" value="paypal" type="radio">
 					</li>
 					<li>
-						<img src="img/paypal.png" alt="paypal">
+						<img src="images/paypal.png" alt="paypal">
 					</li>
 					<li class="payment-title">PayPal</li>
 				</ul>
@@ -312,10 +310,5 @@ require 'header.php';
         </div>
 	</div>
 </div>
-
-<?php
-require 'shopping-cart.php';
-?>
-<?php
-require 'footer.php';
-?>
+{=part.shopping-cart}
+{=part.footer}

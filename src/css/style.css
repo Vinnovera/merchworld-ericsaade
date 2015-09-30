@@ -367,6 +367,7 @@ button {
   color: #fff;
   height: 50px;
   margin-top: 1em;
+  margin-right: 1em;
   text-transform: uppercase;
   width: 200px;
 }
