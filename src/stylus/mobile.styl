@@ -1,0 +1,146 @@
+/*******************************************************/
+/************************ MENU *************************/
+/*******************************************************/
+header {
+	
+	img {
+		display: none;
+	}
+	
+	.menu {
+		background: white;
+		position: fixed;
+		width: 100%;
+		
+		button {
+			background: white;
+			left: 5px;
+		}
+		
+		.main-menu {
+			background: white;
+			z-index: -1;
+			
+			ul {
+				border-top: 1px solid black;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				padding-left: 0px;
+				
+				
+				li {
+					padding: 10px 15px 10px 15px;
+					display: block;
+				}
+			}
+		}
+	}
+}
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
+
+
+.shop {	
+	//style, index.php (shopen)
+	.items {
+		width: 90%;
+		
+		ul {
+			.item {
+				margin-bottom: 5%;
+			}
+		}
+	}
+	
+	//style, single-item.php (sida där en produkt visas)
+	.item-show {
+		width: 90%;
+
+		.item-image {
+			padding-top: 1em;
+			text-align: center;
+			
+			img {
+				width: 90%;
+			}
+		}
+
+		.item-info {
+			padding: 1% 5%; 
+			width: 90%;
+
+			.price {
+				margin-top: 0.8em;
+			}
+
+			button {
+				margin-left: 0;
+				margin-top: 1em;
+			}
+			
+			.social-share {
+				.social-icon {
+					display: inline-block;
+					margin: 10px 0;
+					width: 49%;
+				}
+			}	
+		}
+	}
+}
+
+/*******************************************************/
+/********************** VARUKORG ***********************/
+/*******************************************************/
+#shopping-cart {
+	padding: 1em 1em;
+	
+	h2 {
+		width: 70vw;
+		margin-top: 0;
+		text-transform: uppercase;
+	}
+	
+	.shopping-cart-item {
+
+		img {
+			width: 100px;
+			height: 100px;
+		}
+	}
+}
+/*******************************************************/
+/********************** CHECKOUT ***********************/
+/*******************************************************/
+.message-from-user-container {
+	.editor-field {
+		textarea{
+			height: 6em;
+		}	
+	}
+}
+/*******************************************************/
+/*********************** FOOTER ************************/
+/*******************************************************/
+#footer {
+	height: 20em;
+}
+
+/*******************************************************/
+/******************* LINKS IN FOOTER *******************/
+/*******************************************************/
+.wrapper {
+	padding-top: 4em;
+	
+	.content {
+		padding: 2% 5%;
+		width: 80%;
+
+		fieldset {
+			input, textarea, select {
+				width: 80%;
+			}
+		}
+	}
+}
